@@ -1,0 +1,10 @@
+= Python Generators =
+
+== Introduction ==
+Generators are similar to lists and other iterables. With lists the
+entire list is stored in memory. This can be a problem when iterating
+over large data sets. The solutions is to lazily-evaluate the
+iterable.
+
+== Syntax ==
+

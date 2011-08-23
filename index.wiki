@@ -1,0 +1,10 @@
+= My Knowledge Base =
+  * MyUrgentTasks -- Things to be done
+  * ScratchPad -- Various temprary stuff
+
+
+= Programming =
+
+== Python ==
+  * PythonGenerators - lazily-evaluated iterators
+  * PythonDecorators
