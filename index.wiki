@@ -6,5 +6,10 @@
 = Programming =
 
 == Python ==
-  * PythonGenerators - lazily-evaluated iterators
-  * PythonDecorators
+  * PythonGenerators -- lazily-evaluated iterators
+  * PythonDecorators -- extend functions cleanly/sanely
+  * PythonClosures -- encapsulation
+
+
+= Math =
+  * [[Permutations]] -- all possible combinations of a finite set

@@ -3,8 +3,47 @@
 == Introduction ==
 Generators are similar to lists and other iterables. With lists the
 entire list is stored in memory. This can be a problem when iterating
-over large data sets. The solutions is to lazily-evaluate the
+over large data sets. The solutions is to lazily evaluate the
 iterable.
 
-== Syntax ==
+Advantages:
+* Small(er) memory usage than lists for large data sets
 
+Disadvantages:
+* Can only iterate over data once
+
+
+== Syntax ==
+{{{class="brush: python" >
+# Declare generator
+def generator():
+    for x in range(5):
+        yield x
+
+# Create a generator object
+# Note: the code inside the generator() function is not run yet
+test = generator()
+
+# Iterate over it
+for i in test:
+    # generator() runs until is hits yield, passes the value back
+    # and pauses
+    print(i)
+
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+
+# You can also create a generator with list comprehension syntax,
+# except you use () instead of []
+test = (x for x in range(5))
+}}}
+
+
+== Links ==
+http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained/231855#231855
+http://www.python.org/dev/peps/pep-0255/
+http://en.wikipedia.org/wiki/Lazy_evaluation

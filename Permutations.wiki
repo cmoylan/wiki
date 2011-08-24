@@ -1,0 +1,4 @@
+= Permutations =
+
+== Introduction ==
+Permutation refers to all possible combinations of a finite set.
