@@ -10,6 +10,9 @@
   * PythonDecorators -- extend functions cleanly/sanely
   * PythonClosures -- encapsulation
 
+== LaTeX ==
+  * LaTeXConditionals -- conditionally evluate LaTeX source
+
 
 = Math =
   * [[Permutations]] -- all possible combinations of a finite set
