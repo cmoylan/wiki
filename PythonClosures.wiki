@@ -1,0 +1,29 @@
+= Python Closures =
+
+== Introduction ==
+Same as Javascript closures, for the most part. Allow you to bind external
+variables to a function so that the only access to those variables is through
+the function.
+
+
+== Syntax ==
+{{{class="brush: python" >
+def make_counter():
+    i = 0
+    def counter(): # counter() is a closure
+        nonlocal i
+        i += 1
+        return i
+    return counter
+
+c1 = make_counter()
+c2 = make_counter()
+
+print (c1(), c1(), c2(), c2())
+# -> 1 2 1 2
+}}}
+
+
+== Links ==
+http://stackoverflow.com/questions/13857/can-you-explain-closures-as-they-relate-to-python
+http://mrevelle.blogspot.com/2006/10/closure-on-closures.html

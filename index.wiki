@@ -8,7 +8,7 @@
 == Python ==
   * PythonGenerators -- lazily-evaluated iterators
   * PythonDecorators -- extend functions cleanly/sanely
-  * PythonClosures -- encapsulation
+  * PythonClosures -- they're sort of like objects, but functions
 
 == LaTeX ==
   * LaTeXConditionals -- conditionally evluate LaTeX source
